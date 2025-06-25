@@ -1,0 +1,283 @@
+{
+  "navbar": {
+    "linkhome": "Accueil",
+    "linkaboutus": "À propos",
+    "linkplans": "Plans",
+    "linkcontactus": "Contact"
+  },
+  "home": {
+    "title": "Organisez et développez vos connaissances en développement",
+    "subtitle": "Un espace simple et puissant pour réfléchir et documenter",
+    "button": "Commencer"
+  },
+  "abuotus": {
+    "title": "À propos",
+    "paragraph1": "Second Brain aide les développeurs à centraliser leurs connaissances dans un espace propre, intelligent et efficace. Des notes rapides à une documentation complète — tout en un seul endroit.",
+    "subtitle": "Pourquoi Second Brain ?",
+    "listaboutwhy": [
+      "Un espace d’écriture clair et sans distraction.",
+      "Éditeur Markdown avec surlignage de la syntaxe.",
+      "Organisation simple avec dossiers et étiquettes."
+    ]
+  },
+  "pricing": {
+    "perMonth": "Mois",
+    "title": "Nos offres",
+    "subtitle": "Choisissez le plan qui vous convient",
+    "free": {
+      "title": "Gratuit",
+      "features": [
+        "✓ Notes illimitées",
+        "✓ Éditeur Markdown",
+        "✓ Organisation par dossiers et étiquettes",
+        "✓ Support communautaire"
+      ],
+      "button": "Commencer gratuitement"
+    },
+    "pro": {
+      "title": "Pro",
+      "features": [
+        "✓ Tout ce qui est dans Gratuit",
+        "✓ Synchronisation entre appareils",
+        "✓ Recherche assistée par IA",
+        "✓ Support prioritaire"
+      ],
+      "button": "Obtenir Pro"
+    },
+    "team": {
+      "title": "Équipe",
+      "features": [
+        "✓ Tout ce qui est dans Pro",
+        "✓ Espace de travail partagé",
+        "✓ Rôles et autorisations des utilisateurs",
+        "✓ Tableau de bord admin"
+      ],
+      "button": "Essayer avec votre équipe"
+    }
+  },
+  "contactForm": {
+    "title": "Contactez-nous",
+    "fields": {
+      "fullname": "Nom complet",
+      "company": "Entreprise",
+      "email": "Email",
+      "phone": "Téléphone",
+      "reason": "Raison du contact",
+      "message": "Message",
+      "terms": "J'accepte les conditions générales *"
+    },
+    "placeholders": {
+      "fullname": "Votre nom complet",
+      "company": "Votre entreprise",
+      "email": "exemple@mail.com",
+      "phone": "+33 123 456 789",
+      "message": "Écrivez votre message ici...",
+      "selectReason": "Sélectionnez une raison"
+    },
+    "reasons": {
+      "support": "Assistance",
+      "sales": "Ventes",
+      "feedback": "Retour",
+      "other": "Autre"
+    },
+    "sources": {
+      "google": "Google",
+      "friend": "Ami",
+      "social": "Réseaux sociaux",
+      "other": "Autre"
+    },
+    "sourceLegend": "Comment avez-vous entendu parler de nous ?",
+    "send": "Envoyer",
+    "errors": {
+      "fullname": "Le nom complet est requis",
+      "email": {
+        "required": "L'email est requis",
+        "invalid": "Veuillez entrer une adresse email valide"
+      },
+      "reason": "La raison est requise",
+      "message": "Le message est requis",
+      "terms": "Vous devez accepter les conditions",
+      "message.success": "Merci ! Votre message a été envoyé.",
+      "console.log": "Envoyé :"
+    }
+  },
+  "footer": {
+    "builtfor": "Conçu pour les développeurs",
+    "linkprivacy": "Politique de confidentialité",
+    "linkterms": "Conditions d'utilisation",
+    "linkgithub": "GitHub"
+  },
+  "errorpage": {
+    "subtitle": "Page non trouvée",
+    "message": "La page que vous recherchez n'existe pas",
+    "buttongohome": "Aller à l'accueil"
+  },
+  "login": {
+    "title": "Connexion",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "Entrez votre e-mail",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "button": "Se connecter",
+    "orSignUpWith": "Ou inscrivez-vous avec",
+    "newaccount": "Pas encore de compte ? Créez-en un",
+    "errors": {
+      "requiredEmail": "L'e-mail est requis",
+      "invalidEmail": "Adresse e-mail invalide",
+      "requiredPassword": "Le mot de passe est requis"
+    },
+    "success": "Connexion réussie ! Redirection...",
+    "invalidCredentials": "Adresse e-mail ou mot de passe incorrect."
+  },
+  "register": {
+    "title": "Créer un compte",
+    "nameLabel": "Nom complet",
+    "namePlaceholder": "Entrez votre nom complet",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "Entrez votre e-mail",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "confirmPasswordLabel": "Confirmez le mot de passe",
+    "confirmPasswordPlaceholder": "Répétez votre mot de passe",
+    "button": "S'inscrire",
+    "orSignUpWith": "Ou inscrivez-vous avec",
+    "successMessage": "Inscription réussie",
+    "errors": {
+      "requiredName": "Le nom est requis",
+      "requiredEmail": "L'e-mail est requis",
+      "invalidEmail": "Adresse e-mail invalide",
+      "requiredPassword": "Le mot de passe est requis",
+      "requiredConfirmPassword": "La confirmation du mot de passe est requise",
+      "passwordsDontMatch": "Les mots de passe ne correspondent pas"
+    }
+  },
+  "sidebar": {
+    "alertdelete": "Voulez-vous vraiment supprimer cela ?",
+    "withouttitle": "Sans titre",
+    "home": "Accueil",
+    "acoount": "Compte",
+    "logout": "Déconnexion",
+    "documents": "Documents",
+    "nodocuments": "Aucun document pour le moment.",
+    "delete": "Supprimer",
+    "creatnewdocument": "Créer un nouveau document",
+    "newDocumentTitle": "Nouveau document"
+  },
+  "workspace": {
+    "placeholder": "Sélectionnez un document dans la barre latérale ou créez-en un nouveau",
+    "titlePlaceholder": "Titre du document",
+    "editorPlaceholder": "Commencez à écrire ici...",
+    "actionmenu": {
+      "title_title": "Titre 1",
+      "title": "Titre",
+      "title_subtitle": "Titre 2",
+      "subtitle": "Sous-titre",
+      "title_bulletlist": "Liste à puces",
+      "bulletlist": "Liste",
+      "title_listnumbers": "Liste numérotée",
+      "listnumbers": "Liste numérotée",
+      "title_blockcode": "Bloc de code (mis en évidence)",
+      "codeblock": "Bloc de code",
+      "title_executablecode": "Bloc de code exécutable",
+      "executablecode": "Code exécutable"
+    },
+    "textformat": {
+      "blod": "Gras",
+      "italic": "Italique",
+      "strike": "Barré"
+    },
+    "codeexecution": {
+      "run": "Exécuter",
+      "running": "Exécution...",
+      "executing": "Exécution du code en {{language}}...",
+      "errorLanguage": "Erreur : langue ou ID de Judge0 non défini.",
+      "status": "Statut",
+      "output": "Sortie",
+      "errors": "Erreurs",
+      "compile": "Sortie de compilation",
+      "message": "Message",
+      "executionError": "Erreur d’exécution",
+      "unknownError": "Erreur inconnue lors de l'exécution.",
+      "empty": "Exécution terminée, aucune sortie.",
+      "source": "Code source :",
+      "sourcePlaceholder": "Écrivez votre code ici...",
+      "stdin": "Entrée standard (facultative) :",
+      "stdinPlaceholder": "Entrée pour votre programme...",
+      "outputLabel": "Sortie :",
+      "processing": "Traitement...",
+      "defaultOutput": "Les résultats apparaîtront ici."
+    }
+  },
+  "accountpage": {
+    "title": "Mon compte",
+    "profileAlt": "Photo de profil",
+    "username": "Nom d'utilisateur",
+    "fullName": "Nom complet",
+    "email": "E-mail",
+    "accountCreated": "Compte créé",
+    "status": "Statut"
+  },
+  "pay": {
+    "title": "Finaliser le paiement",
+    "orderSummary.title": "Récapitulatif de commande",
+    "orderSummary.plan": "Plan",
+    "orderSummary.total": "Total",
+    "selectPlanSubtitle": "Choisissez votre plan",
+    "securityMessage": "Vos informations de paiement sont cryptées de bout en bout.",
+    "paymentDetailsSubtitle": "Informations de paiement",
+    "plans": {
+      "recommended": "Recommandé",
+      "free": {
+        "title": "Gratuit",
+        "features": [
+          "✓ Notes illimitées",
+          "✓ Éditeur Markdown",
+          "✓ Organisation par dossiers et étiquettes",
+          "✓ Support communautaire"
+        ],
+        "button": "Commencer gratuitement"
+      },
+      "pro": {
+        "title": "Pro",
+        "features": [
+          "✓ Tout dans Gratuit",
+          "✓ Synchronisation multi-appareils",
+          "✓ Recherche assistée par IA",
+          "✓ Support prioritaire"
+        ],
+        "button": "Passer à Pro"
+      },
+      "team": {
+        "title": "Équipe",
+        "features": [
+          "✓ Tout dans Pro",
+          "✓ Espace de travail collaboratif",
+          "✓ Rôles et autorisations",
+          "✓ Panneau d'administration"
+        ]
+      }
+    },
+    "form": {
+      "fullName": "Nom complet",
+      "email": "Adresse e-mail",
+      "cardNumber": "Numéro de carte",
+      "expiry": "MM/AA",
+      "cvc": "CVC"
+    },
+    "errors": {
+      "fullName": "Le nom complet est requis",
+      "email": "Une adresse e-mail valide est requise",
+      "cardNumber": "Le numéro de carte doit comporter 16 chiffres",
+      "expiry": "La date doit être au format MM/AA",
+      "cvc": "Le CVC doit contenir 3 ou 4 chiffres",
+      "expiryAndCvc": "La date d'expiration et le CVC sont invalides."
+    },
+    "submit": "Payer maintenant",
+    "processing": "Traitement en cours",
+    "success": {
+      "title": "Paiement réussi",
+      "message": "Bienvenue sur Second Brain Pro 🎉"
+    }
+  }
+}
