@@ -1,11 +1,11 @@
-import { useTranslations } from 'next-intl';
+import ContactForm from "../Forms/ContactForm/page";
 
 export default function Contact() {
-    const t = useTranslations("");
-  
-  return (
-    <>
 
-    </>
+  return (
+    <section id="contact-us">
+      <h1 >Contact Us</h1>
+      <ContactForm />
+    </section>
   );
 };

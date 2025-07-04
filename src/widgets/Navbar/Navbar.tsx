@@ -4,11 +4,11 @@ import Link from "next/link";
 import { useTranslations } from 'next-intl';
 import Logo_Second_Brain from "@/shared/ui/Logo_Second_Brain/Logo_Second_Brain";
 import LanguageSelector from "@/shared/ui/LanguageSelector/LanguageSelector";
+import {ThemeSwitcher} from "@/shared/ui/ThemeSwitcher/ThemeSwitcher";
 
 export default function Navbar() {
   const t = useTranslations("navbar");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => setIsMenuOpen(false);
 
@@ -44,13 +44,16 @@ export default function Navbar() {
         <Link href="#contact-us" className="text-gray-600 hover:text-indigo-600 transition-colors duration-200 font-medium">
           {t("linkcontactus")}
         </Link>
-        <LanguageSelector/>
+        <LanguageSelector />
+        <ThemeSwitcher />
+        
+
       </nav>
 
       {isMenuOpen && (
-        <nav 
+        <nav
           className="absolute top-full left-0 w-full bg-white border-t border-gray-200 md:hidden flex flex-col items-center space-y-4 py-8"
-          onClick={closeMenu} 
+          onClick={closeMenu}
         >
           <Link href="#home" className="text-lg text-gray-700 hover:text-indigo-600">
             {t("linkhome")}
@@ -61,9 +64,10 @@ export default function Navbar() {
           <Link href="#prices" className="text-lg text-gray-700 hover:text-indigo-600">
             {t("linkplans")}
           </Link>
-          <Link href="#contact-us" className="text-lg text-gray-700 hover:text-indigo-600">
+          <Link href="#contact-us" className="">
             {t("linkcontactus")}
           </Link>
+
         </nav>
       )}
     </header>

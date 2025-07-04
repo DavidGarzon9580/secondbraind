@@ -33,6 +33,11 @@ export default function AboutUs() {
                 </div>
             </section>
 
+
+                <main className="bg-white dark:bg-gray-900 text-black dark:text-white">
+      <h1>Mi Página</h1>
+    </main>
+
         </>
     );
 };

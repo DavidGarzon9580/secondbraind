@@ -5,6 +5,7 @@ import Pricing from '@/features/OnePage/Pricing';
 import Contact from '@/features/OnePage/Contact';
 import Footer from '@/widgets/Footer/Footer';
 
+
 const LandingParts = [Navbar, Home, AboutUs, Pricing, Contact, Footer];
 
 export default function HomePage() {
@@ -12,8 +13,10 @@ export default function HomePage() {
     <>
       {LandingParts.map((Component, idx) => (
         <Component key={idx} />
+
       ))}
 
+      
     </>
   );
 };

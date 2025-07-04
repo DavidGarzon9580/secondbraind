@@ -9,7 +9,7 @@ export default function Home() {
     const t = useTranslations("home");
   return (
     <>
-        <section className="section section--home" id="home">
+        <section className="top-1/4" id="home">
           <div className="divisions">
             <h1 className="title">{t("title")}</h1>
             <h2 className="subtitle_home">{t("subtitle")}</h2>
